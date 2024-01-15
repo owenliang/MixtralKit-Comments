@@ -19,7 +19,7 @@ class ModelArgs:
     max_batch_size: int = 32
     max_seq_len: int = 2048
 
-
+# 模型结构的定义参数，需要和加载的checkpoint对应
 @dataclass
 class MixtralModelArgs:
     dim: int = 4096
